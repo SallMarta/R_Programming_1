@@ -1,0 +1,52 @@
+---
+title: "04-Tugas SPL"
+author: "Aqshal Marta Y (18523127) & Purna Aji (18523292)"
+output:
+  html_document:
+    df_print: paged
+---
+##A
+```{r}
+library(matlib)
+
+A <- matrix(c(4, -2, 0, 5, -2, 1, 3, -4, -1),3, 3, TRUE)
+B <- c(2, 7, 3)
+
+solve(A, B)
+
+gaussianElimination(A, B)
+
+showEqn(A, B)
+
+plotEqn3d(A, B)
+```
+##B
+```{r}
+library(matlib)
+C <- matrix(c(2, 5, 1, -1, 4, 3, 5, 0, -2),3, 3, TRUE)
+D <- c(-12, -4, -13)
+
+solve(C, D)
+
+gaussianElimination(C, D)
+
+showEqn(C, D)
+
+plotEqn3d(C, D)
+```
+##C
+```{r}
+library(matlib)
+
+e <- matrix(c(2, -1, 3, 2, 2, 3, -2, 3, 0),3, 3, TRUE)
+f <- c(5, 7, -3)
+
+solve(e, f)
+
+gaussianElimination(e, f)
+
+showEqn(e, f)
+
+plotEqn3d(e, f)
+```
+
