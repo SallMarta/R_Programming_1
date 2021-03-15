@@ -5,7 +5,7 @@ output:
   html_document:
     df_print: paged
 ---
-##A
+## A
 ```{r}
 library(matlib)
 
@@ -20,7 +20,7 @@ showEqn(A, B)
 
 plotEqn3d(A, B)
 ```
-##B
+## B
 ```{r}
 library(matlib)
 C <- matrix(c(2, 5, 1, -1, 4, 3, 5, 0, -2),3, 3, TRUE)
@@ -34,7 +34,7 @@ showEqn(C, D)
 
 plotEqn3d(C, D)
 ```
-##C
+## C
 ```{r}
 library(matlib)
 
